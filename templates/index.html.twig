@@ -1,0 +1,18 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+{{ form_start(form) }}
+{{ form_widget(form) }}
+<input type="submit" value="Submit" class="btn btn-primary" />
+{{ form_end(form) }}
+
+{% if affordableProperties is not empty %}
+<hr />
+<p class="lead">Based on the information you provided, below is a list of affordable properties:</p>
+<ul class="list-group">
+    {% for property in affordableProperties %}
+        <li class="list-group-item"><span class="badge bg-primary rounded-pill">&pound;{{ property.price }}</span> - {{ property.address }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endblock %}
