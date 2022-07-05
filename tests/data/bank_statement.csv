@@ -1,0 +1,76 @@
+SAMPLE BANK STATEMENT,,,,,
+,,,,,
+,,,,,
+BANK OF LONDON TOWN,,,,,
+Mr Joe Bloggs,,,,,
+1 Any Avenue,,,,,
+London Town,,,,,
+Your account summary for,,,,,
+1st October 2016 to 30th November 2016,,,,,
+Date,Payment Type,Details,Money Out,Money In,Balance
+,,STATEMENT OPENING BALANCE,,,"£1,183.00"
+1st October 2016,ATM,"High Street, 11:22am",£10.00,,"£1,173.00"
+3rd October 2016,Direct Debit,Satellite TV/Home phone and broadband,£95.00,,"£1,078.00"
+3rd October 2016,Card Payment,Cinema,£6.50,,"£1,071.50"
+4th October 2016,Bank Credit,From flatmate for phone and broadband,,£12.50,"£1,084.00"
+4th October 2016,Card Payment,Petrol Station,£10.00,,"£1,074.00"
+4th October 2016,Direct Debit,Gym Membership,£32.50,,"£1,041.50"
+5th October 2016,Card Payment,ASDA,£22.50,,"£1,019.00"
+8th October 2016,Standing Order,London Town Letting Services,£305.00,,£714.00
+8th October 2016,Direct Debit,Insure your stuff,£8.50,,£705.50
+8th October 2016,Card Payment,Topman,£65.00,,£640.50
+9th October 2016,ATM,"Pop Nightclub Avenue, 10:23pm",£30.00,,£610.50
+10th October 2016,ATM,"Pop Nightclub Avenue, 1:36am",£30.00,,£580.50
+10th October 2016,Card Payment,Pizza Shop,£14.50,,£566.00
+11th October 2016,Direct Debit,Insure your car,£75.00,,£491.00
+11th October 2016,Direct Debit,TV Licence,£12.12,,£478.88
+11th October 2016,Card Payment,ASDA,£42.50,,£436.38
+12th October 2016,Bank Credit,From flatmate for TV licence,,£6.00,£442.38
+12th October 2016,Bank Transfer,To flatmate for money owed,£16.00,,£426.38
+14th October 2016,Card Payment,Petrol Station,£25.00,,£401.38
+14th October 2016,Card Payment,Bowling,£7.50,,£393.88
+14th October 2016,Card Payment,Just Eat,£6.99,,£386.89
+16th October 2016,Card Payment,Sports Shop,£54.98,,£331.91
+16th October 2016,ATM,"High Street, 2:23pm",£50.00,,£281.91
+19th October 2016,Card Payment,Books,£34.99,,£246.92
+22nd October 2016,Card Payment,Petrol Station,£20.00,,£226.92
+23rd October 2016,Card Payment,ASDA,£32.50,,£194.42
+23rd October 2016,Card Payment,Computer Games Superstore,£29.99,,£164.43
+25th October 2016,Direct Debit,Mobile Phone Insurance,£4.50,,£159.93
+28th October 2016,Bank Credit,Part Time Job,,£200.00,£359.93
+28th October 2016,Card Payment,Credit Card Bill,£7.50,,£352.43
+29th October 2016,Direct Debit,Mobile Phone,£60.00,,£292.43
+30th October 2016,Card Payment,London Gas and Electricity,£84.50,,£207.93
+30th October 2016,Bank Credit,From flatmate for gas/elec,,£42.25,£250.18
+31st October 2016,Bank Credit,London Town Employer Ltd,,"£1,000.00","£1,250.18"
+3rd November 2016,Direct Debit,Satellite TV/Home phone and broadband,£95.00,,"£1,155.18"
+3rd November 2016,Card Payment,ASDA,£29.73,,"£1,125.45"
+4th November 2016,Bank Credit,From flatmate for phone and broadband,,£12.50,"£1,137.95"
+4th November 2016,ATM,"High Street, 1:12pm",£20.00,,"£1,117.95"
+4th November 2016,Direct Debit,Gym Membership,£32.50,,"£1,085.45"
+4th November 2016,Card Payment,Petrol Station,£20.00,,"£1,065.45"
+8th November 2016,Standing Order,London Town Letting Services,£305.00,,£760.45
+8th November 2016,Direct Debit,Insure your stuff,£8.50,,£751.95
+8th November 2016,ATM,"High Street, 6:28pm",£40.00,,£711.95
+11th November 2016,Direct Debit,Insure your car,£75.00,,£636.95
+11th November 2016,Direct Debit,TV Licence,£12.12,,£624.83
+11th November 2016,Card Payment,Petrol Station,£10.00,,£614.83
+11th November 2016,ATM,"Petrol Station, 7:21pm",£25.00,,£589.83
+12th November 2016,Bank Credit,From flatmate for TV licence,,£6.00,£595.83
+12th November 2016,Card Payment,Cinema,£6.50,,£589.33
+12th November 2016,Card Payment,Cinema concession,£13.00,,£576.33
+15th November 2016,Card Payment,Local bar,£22.00,,£554.33
+15th November 2016,Card Payment,Local bar,£18.00,,£536.33
+15th November 2016,Card Payment,Petrol Station,£20.00,,£516.33
+16th November 2016,Card Payment,Parking fine,£30.00,,£486.33
+18th November 2016,ATM,"High Street, 3:25pm",£25.00,,£461.33
+21th November 2016,Card Payment,Low budget airline,£147.00,,£314.33
+21th November 2016,Card Payment,Hostels R Us,£99.00,,£215.33
+24th November 2016,Card Payment,Repay Ben for dinner,£13.00,,£202.33
+25th November 2016,Direct Debit,Mobile Phone Insurance,£4.50,,£197.83
+28th November 2016,Bank Credit,Part Time Job,,£200.00,£397.83
+28th November 2016,Card Payment,Credit Card Bill,£7.50,,£390.33
+29th November 2016,Direct Debit,Mobile Phone,£60.00,,£330.33
+30th November 2016,Card Payment,London Gas and Electricity,£84.50,,£245.83
+30th November 2016,Bank Credit,From flatmate for gas/elec,,£42.25,£288.08
+30th November 2016,Bank Credit,London Town Employer Ltd,,"£1,000.00","£1,288.08"

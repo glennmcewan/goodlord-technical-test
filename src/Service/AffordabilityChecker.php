@@ -49,7 +49,7 @@ class AffordabilityChecker
         $fileHandle = fopen($propertiesListPath, 'r');
 
         if (!$fileHandle) {
-            throw new Exception('Unable to open Bank Statement CSV');
+            throw new Exception('Unable to open Properties List CSV');
         }
 
         $affordableProperties = [];
@@ -71,17 +71,6 @@ class AffordabilityChecker
                     'remainder' => $discretionaryIncome - $affordabilityThreshold,
                 ];
             }
-
-            // TODO: don't push debug statements to production :)
-            // dump([
-            //     'price' => $data[2],
-            //     'affordabilityThreshold' => $affordabilityThreshold,
-            //     'income' => $bankStatement->calculateAverageMonthlyIncome(),
-            //     'outgoings' => $bankStatement->calculateAverageMonthlyRecurringExpenses(),
-            //     'discretionaryIncome' => $discretionaryIncome,
-            //     'estimatedRemainder' => $discretionaryIncome - $affordabilityThreshold,
-            //     'affordable' => ($discretionaryIncome - $affordabilityThreshold) > 0,
-            // ]);
         }
 
         fclose($fileHandle);
@@ -89,7 +78,7 @@ class AffordabilityChecker
         return $affordableProperties;
     }
 
-    protected function buildBankStatementModel(string $bankStatementPath): BankStatement
+    public function buildBankStatementModel(string $bankStatementPath): BankStatement
     {
         $fileHandle = fopen($bankStatementPath, 'r');
 
@@ -108,7 +97,7 @@ class AffordabilityChecker
                 $openingBalance = $this->numberFormatter->parseCurrency($data[5], $this->currencySymbol);
                 
                 if (false === $openingBalance) {
-                    throw new Exception('Unable to parse opening balanace from bank statement');
+                    throw new Exception('Unable to parse opening balance from bank statement');
                 }
 
                 $bankStatement->setOpeningBalance($openingBalance);
@@ -132,8 +121,6 @@ class AffordabilityChecker
             }
 
             $periodEnd = new DateTime($data[0]);
-
-            // dump($data);
 
             // Collect all credits into an array
             $normalisedPaymentType = strtolower($data[1]);
@@ -160,17 +147,6 @@ class AffordabilityChecker
                     break;
             }
         }
-
-        // dump([
-        //     '$bankStatement->calculateTotalIncome()' => $bankStatement->calculateTotalIncome(),
-        //     '$bankStatement->calculateAverageMonthlyIncome()' => $bankStatement->calculateAverageMonthlyIncome(),
-        //     '$bankStatement->calculateAverageMonthlyRecurringExpenses()' => $bankStatement->calculateAverageMonthlyRecurringExpenses(),
-        //     '$bankStatement->getCreditTransactions()' => $bankStatement->getCreditTransactions(),
-        //     '$bankStatement->getOpeningBalance()' => $bankStatement->getOpeningBalance(),
-        //     '$periodBegin,' => $periodBegin,
-        //     '$periodEnd,' => $periodEnd,
-        //     '$bankStatement->getTotalMonths()' => $bankStatement->getTotalMonths(),
-        // ]);
 
         fclose($fileHandle);
 

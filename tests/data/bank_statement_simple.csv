@@ -1,0 +1,13 @@
+SAMPLE BANK STATEMENT,,,,,
+,,,,,
+,,,,,
+BANK OF LONDON TOWN,,,,,
+Mr Joe Bloggs,,,,,
+1 Any Avenue,,,,,
+London Town,,,,,
+Your account summary for,,,,,
+1st October 2016 to 31st October 2016,,,,,
+Date,Payment Type,Details,Money Out,Money In,Balance
+,,STATEMENT OPENING BALANCE,,,"£5,000.00"
+1st October 2016,Direct Debit,Satellite TV/Home phone and broadband,"£100.00",,"£400.00"
+31st October 2016,Bank Credit,London Town Employer Ltd,,"£1,000.00","£1,400.00"

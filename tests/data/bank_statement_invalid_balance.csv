@@ -1,0 +1,22 @@
+SAMPLE BANK STATEMENT,,,,,
+,,,,,
+,,,,,
+BANK OF LONDON TOWN,,,,,
+Mr Joe Bloggs,,,,,
+1 Any Avenue,,,,,
+London Town,,,,,
+Your account summary for,,,,,
+1st October 2016 to 30th November 2016,,,,,
+Date,Payment Type,Details,Money Out,Money In,Balance
+,,STATEMENT OPENING BALANCE,,,"1,183.00"
+1st October 2016,ATM,"High Street, 11:22am",£10.00,,"£1,173.00"
+3rd October 2016,Direct Debit,Satellite TV/Home phone and broadband,£95.00,,"£1,078.00"
+3rd October 2016,Card Payment,Cinema,£6.50,,"£1,071.50"
+4th October 2016,Bank Credit,From flatmate for phone and broadband,,£12.50,"£1,084.00"
+4th October 2016,Card Payment,Petrol Station,£10.00,,"£1,074.00"
+4th October 2016,Direct Debit,Gym Membership,£32.50,,"£1,041.50"
+5th October 2016,Card Payment,ASDA,£22.50,,"£1,019.00"
+8th October 2016,Standing Order,London Town Letting Services,£305.00,,£714.00
+8th October 2016,Direct Debit,Insure your stuff,£8.50,,£705.50
+8th October 2016,Card Payment,Topman,£65.00,,£640.50
+9th October 2016,ATM,"Pop Nightclub Avenue, 10:23pm",£30.00,,£610.50
